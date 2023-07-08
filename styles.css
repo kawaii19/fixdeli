@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -88,8 +88,13 @@ body {
   
   .location {
     grid-area: location;
+    
   }
   
+  .location h2, .location p, .contact h2, .contact p {
+    text-align: center;
+  }
+
   .map {
     margin-top: 20px;
   }
@@ -123,4 +128,3 @@ body {
       flex-direction: column;
     }
   }
-  
